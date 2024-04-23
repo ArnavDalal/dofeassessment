@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+#landing-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('https://www.wildcountryconsultants.co.uk/cmsAdmin/uploads/thumb/what-is-dofe-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    margin:0;
+    padding:20px 0;
+    font-size:4rem !important; 
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+}
+
+.of {
+    font-family: "Alex Brush", cursive;
+}
+
+.sub-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+a {
+    margin: 2px 10px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff ;
+    scroll-behavior: smooth;
+} a:hover {
+    color: coral;
+    transition-duration: 0.3s;
+    font-size: 1.7rem;
+} a:not(:hover){
+    transition-duration: 0.3s;
+}
+
+#physical {
+    background: rgb(178,34,34);
+    background: linear-gradient(180deg, rgba(178,34,34,1) 0%, rgba(181,63,63,1) 50%, rgba(218,96,96,1) 100%);   
+}
+
+#Volunteering {
+    background: rgb(218,96,96);
+    background: linear-gradient(180deg, rgba(218,96,96,1) 0%, rgba(255,99,71,1) 50%, rgba(255,69,0,1) 100%);
+}
+
+#Skills {
+    background: rgb(255,69,0);
+    background: linear-gradient(180deg, rgba(255,69,0,1) 0%, rgba(250,128,114,1) 50%, rgba(255,160,122,1) 100%);
+}
+
+hr {
+    margin: 0;
+    border: 3px dotted black;
+}
+
+.contentBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 5px 40px !important;
+}
+
+.box {
+    width: 45%;
+    padding-left: 40px;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.text-box1 {
+    text-align: right;
+} .image-box1 {
+    text-align: left;
+}
+
+img {
+    border: 10px white solid;
+} img:hover {
+    height: 310px;
+    width: 510px;
+    box-shadow:  10px 5px 5px black;
+    transition-duration: 400ms;
+} img:not(:hover) {
+    transition-duration: 400ms;
+}
